@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilias Boujendar | Architecte & Design Manager</title>
+    <style>
+        :root { --dark: #1a1a1a; --light: #f4f4f4; --accent: #c5a059; }
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--dark); margin: 0; background: var(--light); }
+        header { height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; background: white; border-bottom: 5px solid var(--accent); }
+        .container { max-width: 900px; margin: auto; padding: 50px 20px; }
+        h1 { font-size: 3rem; text-transform: uppercase; letter-spacing: 4px; margin-bottom: 0; }
+        .subtitle { color: var(--accent); font-weight: bold; font-size: 1.2rem; margin-top: 5px; }
+        section { margin-bottom: 60px; }
+        h2 { border-left: 4px solid var(--accent); padding-left: 15px; text-transform: uppercase; }
+        .job { margin-bottom: 30px; }
+        .job-title { font-weight: bold; font-size: 1.1rem; }
+        .job-meta { color: #666; font-style: italic; font-size: 0.9rem; }
+        .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+        .contact-btn { display: inline-block; padding: 12px 25px; background: var(--dark); color: white; text-decoration: none; margin-top: 20px; border-radius: 2px; }
+        .contact-btn:hover { background: var(--accent); }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ilias Boujendar</h1>
+    <div class="subtitle">ARCHITECTE & DESIGN MANAGER</div>
+    <p>Rabat, Maroc | +212 6 14 24 93 77</p>
+    <a href="mailto:iliasboujendararchitecte@gmail.com" class="contact-btn">ME CONTACTER</a>
+</header>
+
+<div class="container">
+    <section id="experience">
+        <h2>Expérience Professionnelle</h2>
+        <div class="job">
+            <div class="job-title">Architecte Responsable Études CEA - Construction Management Services</div>
+            <div class="job-meta">Tour Mohammed VI | Déc 2022 - Présent</div>
+            <ul>
+                <li>Études EXE et suivi de travaux des CEA au projet de la Tour Mohammed VI[cite: 17].</li>
+                <li>Coordination avec les CET à travers le département BIM pour une maquette synthétisée "clash free"[cite: 21].</li>
+                <li>Gestion contractuelle du marché et coordination des sous-traitants[cite: 20].</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-title">Architecte - Mohammed Benabdesselam Architecture</div>
+            <div class="job-meta">Juillet 2019 - Nov 2022</div>
+            <ul>
+                <li>Études urbaines du nouveau quartier Oasis City Casablanca[cite: 43].</li>
+                <li>Réhabilitation du patrimoine Art Déco de Casablanca[cite: 43].</li>
+                <li>Conception de cités universitaires à Fès, Beni Mellal et Safi[cite: 40, 45, 46].</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="logiciels">
+        <h2>Expertise Logicielle</h2>
+        <div class="skills-grid">
+            <div>
+                <strong>Conception & BIM</strong>
+                <p>Archicad, Autocad, Revit, BIM 360, Twinmotion[cite: 28].</p>
+            </div>
+            <div>
+                <strong>Visualisation & Suite Adobe</strong>
+                <p>Lumion, Enscape, Photoshop, InDesign, Illustrator[cite: 28, 29].</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Formation</h2>
+        <p><strong>Architecte DENA</strong> - Rabat (Mention très honorable) [cite: 10, 11]</p>
+        <p><strong>BAC PC</strong> - Lycée Moulay Youssef Rabat (Mention très bien) [cite: 12]</p>
+    </section>
+</div>
+
+</body>
+</html>
